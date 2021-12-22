@@ -12,6 +12,8 @@ Page d'accueil :
 
     - Time (Time zone UTC+02:00 (EET) / Summer UTC+03:00 (EEST) )
     - Weather ( Un module "temps" avec actualité en direct de la temperature / humidité / temps )
+    - Carte lieux visité
+    - Actualité sur les MAJ de notre blog
 
 Page géographie et informations avec : 
 
@@ -27,3 +29,4 @@ Page Voyage / transport :
     - public transport
     - student life ( apartment / food / study ? ) 
     - tips from 4th-year students etc 
+ 
