@@ -1,0 +1,9 @@
+ /* ====================================== BACKGROUND ====================================== */
+              /* Je vais mettre un arrière plan pour chaque page grace à l'ID*/
+              #main_page
+              {    
+                  background: url("Image/Fond_accueil.jpg") fixed no-repeat;
+                  background-size: cover;
+              }
+              /* ====================================== END BACKGROUND ====================================== */
+              
