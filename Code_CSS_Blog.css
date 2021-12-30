@@ -6,7 +6,17 @@
   background-size: cover;
 }
 /* ====================================== END BACKGROUND ====================================== */
-              
+
+
+/* ====================================== CENTRER ====================================== */
+                      /* Ici mettre tout ce qui devra être centré */
+.weatherwidget-io, .heure {      
+  position : center;
+  text-align: center;
+}
+/* ====================================== END CENTRER ====================================== */
+
+
 /* ====================================== BARRE DE NAVIGATION ======================================*/
 
 body {margin: 0;}
@@ -41,3 +51,18 @@ ul.topnav li.right {float: right;}
 }
 
 /* ====================================== END BARRE NAVIGATION ====================================== */
+
+
+/* ======================================== AFFICHAGE HEURE ========================================*/ 
+
+article
+{
+	border:transparent;
+	padding: auto;
+	width:fit-content;
+	height:fit-content;
+	margin: auto;
+}
+
+/* ======================================== AFFICHAGE HEURE ======================================== */
+
