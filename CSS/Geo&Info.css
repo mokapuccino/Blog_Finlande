@@ -2,3 +2,22 @@
     height: auto;
     width: 30%;
 }
+
+article{
+    align-items: flex-start;
+    padding: 0 30px;
+    flex-wrap: nowrap;
+    max-width: calc(100% - 60px);
+    width: fit-content;
+    height: fit-content;
+}
+figure{
+    display: inline-block;
+}
+
+#FI_map{
+    background-image: url(../Img/map.png);
+    min-height: 300px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
