@@ -1,0 +1,50 @@
+ /* ====================================== BACKGROUND ====================================== */
+              /* Je vais mettre un arrière plan pour chaque page grace à l'ID*/
+/*#main_page
+{    
+  background: url("Image/Accueil_fond.jpg") fixed no-repeat;
+  background-size: cover;
+}
+/* ====================================== END BACKGROUND ====================================== */
+              
+/* ====================================== BARRE DE NAVIGATION ======================================*/
+
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: rgb(49, 49, 49);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: rgb(56,56,56);
+  color: white;
+}
+
+ul.topnav li a.active {
+  background-color: rgb(173, 235, 255);
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/* ====================================== END BARRE NAVIGATION ====================================== */
